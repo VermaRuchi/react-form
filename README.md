@@ -1,11 +1,39 @@
 # Getting Started with Create React App
 
+React app I deployed is accessible at https://vermaruchi.github.io/react-form/.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### `Prerequisite:-`
+     
+    1. node v18.12.1
+    2. npm 8.19.2
+    Reference to install node: https://nodejs.dev/en/learn/how-to-install-nodejs/
+
+### `How to do local setup:-`
+
+    Step 1: Clone git repo by running following command-\
+    $ git clone https://github.com/VermaRuchi/react-form.git
+
+    Step 2: Go to the project directory. \
+    cd react-form
+
+    Step 2: run following command to install package dependencies.\
+    $ npm install
+
+    step 3: run the app in the development mode.\
+    $ npm start
+
 
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `npm install`
+
+Install a package. Install the dependencies in the local node_modules folder.\
+In global mode (ie, with -g or --global appended to the command), it installs the current package\
+context (ie, the current working directory) as a global package. By default, npm install will install all modules listed as dependencies in package.json.
 ### `npm start`
 
 Runs the app in the development mode.\
